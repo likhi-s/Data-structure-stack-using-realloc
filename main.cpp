@@ -85,6 +85,6 @@ int main()
             printf("Invalid input. Please enter a valid option (1-4).\n");
         }
     }
-
+    free(arr); 
     return 0;
 }
